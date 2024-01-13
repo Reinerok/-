@@ -8,7 +8,8 @@
 Если нажать кнопку обновить страница перезагрузится через ajax с новым некешируемым запросом.
 
 Сам компонент вызван на странице через код - 
-
+```php
+<?
 $APPLICATION->IncludeComponent(
 	"test:test1.comp",
 	".default",
@@ -27,3 +28,5 @@ $APPLICATION->IncludeComponent(
 	),
 	false
 );
+?>
+```
