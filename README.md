@@ -9,7 +9,7 @@
 
 Сам компонент вызван на странице через код - 
 
-<? $APPLICATION->IncludeComponent(
+$APPLICATION->IncludeComponent(
 	"test:test1.comp",
 	".default",
 	array(
@@ -26,4 +26,4 @@
 		
 	),
 	false
-);?>
+);
